@@ -1,0 +1,3 @@
+export function MoistureChart() {
+  return <><div className="chart"><svg viewBox="0 0 600 180" preserveAspectRatio="none" aria-label="Grafik kelembapan tanah"><defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#63bc91" stopOpacity=".34"/><stop offset="1" stopColor="#63bc91" stopOpacity="0"/></linearGradient></defs><path d="M0 126 C55 116,75 70,130 82 S210 140,270 98 S355 48,405 72 S505 118,600 55 L600 180 L0 180 Z" fill="url(#area)"/><path d="M0 126 C55 116,75 70,130 82 S210 140,270 98 S355 48,405 72 S505 118,600 55" fill="none" stroke="#3b9c74" strokeWidth="4" strokeLinecap="round"/></svg></div><div className="chart-labels"><span>06.00</span><span>09.00</span><span>12.00</span><span>15.00</span><span>18.00</span></div></>
+}
